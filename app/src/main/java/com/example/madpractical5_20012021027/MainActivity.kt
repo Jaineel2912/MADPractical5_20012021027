@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             .apply {
                 startService(this)
             }
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_LONG).show()
+        //Toast.makeText(this, "button ", Toast.LENGTH_LONG).show()
     }
 
     fun stop(view: View) {
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             .apply {
                 stopService(this)
             }
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_LONG).show()
+        //Toast.makeText(this, "button is clicked", Toast.LENGTH_LONG).show()
     }
 
 
